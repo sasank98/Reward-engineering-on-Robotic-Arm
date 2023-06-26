@@ -73,8 +73,8 @@ Mean Rewards for both cases using TQC algorithm
 
 The video for the case without changing the reward function is given below
 
-![video](/support/no_change_1.mp4)
+![image](/support/no_change_1.gif)
 
 The video for the case with reward engineering is given below
 
-![video](/support/reward_changed_2.mp4)
+![image](/support/reward_changed_2.gif)
