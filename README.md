@@ -71,6 +71,10 @@ Mean Rewards for both cases using TQC algorithm
 
 ## Video for viewing the difference in stability
 
-The video for the case Without changing the reward function is given below
+The video for the case without changing the reward function is given below
 
-![video](/support/no_change.mp4)
+![video](/support/no_change_1.mp4)
+
+The video for the case with reward engineering is given below
+
+![video](/support/reward_changed_2.mp4)
