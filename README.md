@@ -69,12 +69,12 @@ Mean Rewards for both cases using TQC algorithm
 
 ![image](/support/TQC_rengg.png)
 
-## Video for viewing the difference in stability
+## Video to view the difference in stability and accuracy
 
-The video for the case without changing the reward function is given below
+### Video for the case without changing the reward function is given below
 
 ![image](/support/no_change_1.gif)
 
-The video for the case with reward engineering is given below
+### Video for the case with reward engineering is given below
 
 ![image](/support/reward_changed_2.gif)
