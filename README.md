@@ -1,6 +1,6 @@
 # Reward engineering on Robotic Arm
 
-Implemented reinforcement learning algorithms on a Robotic arm in Panda-gym environment
+Implemented reinforcement learning algorithms on a Robotic arm in panda-gym environment
 Changed the reward functions from the standard panda-gym environment to improve the stability, changes were made in the custom_gym directory
 `custom_gym` is cloned from panda-gym and changes in the reward function were made in the `panda_tasks` directory so the model can be directly trained without the `panda-gym library`
 
@@ -31,6 +31,7 @@ Code to run SAC, TQC, and DDPG algorithms was written as well and consistency wa
 Only the agents trained with the new reward function are available in the `trained` directory
 
 `
+
     def reset(self) -> None:
         with self.sim.no_rendering():
             self.time = 0
@@ -46,6 +47,7 @@ Only the agents trained with the new reward function are available in the `train
             return -np.array(d > self.distance_threshold, dtype=np.float64)
         else:
             return d*self.time
+            
 `
 
 make changes to these methods in the, specific tasks to make a custom reward function
@@ -71,4 +73,4 @@ Mean Rewards for both cases using TQC algorithm
 
 The video for the case Without changing the reward function is given below
 
-![video](/support/TQC_rengg.png)
+![video](/support/no_change.mp4)
